@@ -1,0 +1,628 @@
+*{box-sizing: border-box;}
+@font-face {
+  font-family: Leimzy;
+  src: ./assets/Leimzy-Regular.otf;
+}
+
+p {
+  color: #7BDBFF;
+  font-family: Leimzy;
+  font-size: 20px;
+  padding: 0%;
+}
+
+img {
+  width:100%;
+}
+
+body{
+  margin:10px;
+  padding: 0;
+  background-color: #FBFF9E;
+  color: #7BDBFF;
+
+  font-family: Leimzy;
+  font-size: 20px;
+overflow: scroll;
+
+}
+
+a{
+  text-decoration: none;
+  color: #7BDBFF;
+}
+
+a:hover{
+  color: #00ABB4
+}
+
+
+.frame-draggy:hover{
+  cursor: move;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #e6f936;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black;
+}
+
+.tillie: hover{
+  cursor: url("./assets/images/raggy.png"), auto;
+}
+
+
+
+.hide{
+  position:sticky;
+  float: right;
+  top: 0px;
+}
+
+.twogriffs{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+left: 30%;
+}
+
+.grifftext{
+  width:25%;
+}
+
+.sidebar{
+  /* outline-color: red;
+  outline-style: solid; */
+  position: absolute;
+  height: 50%;
+  width: 10%;
+  overflow: scroll;
+  margin: 20px;
+  float: left;
+}
+
+.sidebar2{
+  /* outline-color: yellow;
+  outline-style: solid; */
+  float: left;
+  height: 50%;
+  width: 10%;
+  overflow: scroll;
+  margin: 20px;
+position: fixed;
+left: 15%;
+}
+
+.getanother{
+  width: 25%;
+  height: 40%;
+  outline-color: red;
+  outline-style: solid;
+  position: absolute;
+  bottom: 5%;
+  background: linear-gradient(-180deg, rgba(168,255,0,1) 0%, rgba(22,255,0,1) 65%, rgba(24,159,6,1) 100%);
+  opacity: 70%;
+}
+
+h3{
+  color:#00ABB4;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+
+.photos{
+  position: fixed;
+  left: 30%;
+  height: 80%;
+  width: 30%;
+  margin: 20px;
+}
+
+  .photos:hover{
+    filter: drop-shadow(0 0 30px #CEFA05);
+  }
+  .photos .jotext {
+      visibility: hidden;
+      width: 40%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 110%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .jotext{
+      visibility: visible;
+    }
+
+  .photos .millietext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .millietext{
+      visibility: visible;
+    }
+
+  .photos .raggytext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .raggytext{
+      visibility: visible;
+    }
+
+  .photos .montytext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .montytext{
+      visibility: visible;
+    }
+
+  .photos .maxtext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .maxtext{
+      visibility: visible;
+    }
+
+    .maxphoto{
+      width: 30%;
+      position: absolute;
+    }
+
+  .photos .hazeltext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .hazeltext{
+      visibility: visible;
+    }
+
+  .photos .pumpkintext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .pumpkintext{
+      visibility: visible;
+    }
+
+  .photos .daisytext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .daisytext{
+      visibility: visible;
+    }
+
+  .photos .sarahtext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .sarahtext{
+      visibility: visible;
+    }
+
+  .photos .millietext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .millietext{
+      visibility: visible;
+    }
+
+  .photos .ossitext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 115%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .ossitext{
+      visibility: visible;
+    }
+
+  .photos .jellybeantext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 130%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .jellybeantext{
+      visibility: visible;
+    }
+
+  .photos .chieftext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 110%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .chieftext{
+      visibility: visible;
+    }
+
+  .photos .ettatext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 110%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .ettatext{
+      visibility: visible;
+    }
+
+  .photos .ninatext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 110%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .ninatext{
+      visibility: visible;
+    }
+
+  .photos .sparrowtext {
+      visibility: hidden;
+      width: 70%;
+      text-align: left;
+      border-radius: 6px;
+      padding: 0px 0;
+      position: absolute;
+      left: 110%;
+      top: 10%;
+      z-index: 4;
+    }
+    .photos:hover .sparrowtext{
+      visibility: visible;
+    }
+
+  .photos .lulutext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .lulutext{
+    visibility: visible;
+  }
+
+  .photos .beantext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .beantext{
+    visibility: visible;
+  }
+
+  .photos .bellatext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .bellatext{
+    visibility: visible;
+  }
+
+  .photos .lunatext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .lunatext{
+    visibility: visible;
+  }
+
+  .photos .winstontext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .winstontext{
+    visibility: visible;
+  }
+
+  .photos .cocotext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .cocotext{
+    visibility: visible;
+  }
+
+  .photos .ralphtext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .ralphtext{
+    visibility: visible;
+  }
+
+  .photos .elfietext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .elfietext{
+    visibility: visible;
+  }
+
+  .photos .cyrustext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .cyrustext{
+    visibility: visible;
+  }
+
+  .photos .hensontext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .hensontext{
+    visibility: visible;
+  }
+
+  .photos .littlesusantext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .littlesusantext{
+    visibility: visible;
+  }
+
+  .photos .erietext {
+    visibility: hidden;
+    width: 70%;
+    text-align: left;
+    border-radius: 6px;
+    padding: 0px 0;
+    position: absolute;
+    left: 110%;
+    top: 10%;
+    z-index: 4;
+  }
+  .photos:hover .erietext{
+    visibility: visible;
+  }
+
+
+
+.floatingface{
+  height: 30%;
+  width: 15%;
+  float: left;
+  /* background-color: #555;
+  outline-color: red;
+  outline-style: solid; */
+}
+
+  /* .flier {
+  	pointer-events: none;
+  }
+
+  .flier > * {
+
+          animation: fly 50s linear infinite;
+          pointer-events: none !important;
+  	top: 0;
+  	left: 0;
+  	transform: translateX(-120%) translateY(-120%) rotateZ(0);
+  	position: fixed;
+  	animation-delay: 1s;
+  	z-index: 999999;
+    height: 30%;
+    width: 15%;
+  }
+
+  @keyframes fly {
+
+  	98.001%, 0% {
+                  display: block;
+  		transform: translateX(-200%) translateY(100vh) rotateZ(0deg)
+  	}
+
+  	15% {
+  		transform: translateX(100vw) translateY(-100%) rotateZ(180deg)
+  	}
+
+  	15.001%, 18% {
+  		transform: translateX(100vw) translateY(-30%) rotateZ(0deg)
+  	}
+
+  	40% {
+  		transform: translateX(-200%) translateY(3vh) rotateZ(-180deg)
+  	}
+
+  	40.001%, 43% {
+  		transform: translateX(-200%) translateY(-100%) rotateZ(-180deg)
+  	}
+
+  	65% {
+  		transform: translateX(100vw) translateY(50vh) rotateZ(0deg)
+  	}
+
+  	65.001%, 68% {
+  		transform: translateX(20vw) translateY(-200%) rotateZ(180deg)
+  	}
+
+  	95% {
+  		transform: translateX(10vw) translateY(100vh) rotateZ(0deg)
+  	}
+  } */
