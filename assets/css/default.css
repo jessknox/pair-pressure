@@ -20,7 +20,7 @@ body{
   padding: 0;
   background-color: #999b75;
   color: #7BDBFF;
-
+cursor: crosshair;
   font-family: Leimzy;
   font-size: 20px;
 overflow: scroll;
